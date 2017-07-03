@@ -1,3 +1,3 @@
 #!/bin/sh
-htpasswd -bc /usr/etc/passwd "${SQUID_USERNAME}" "${SQUID_PASSWORD}"
+htpasswd -bc /etc/squid3/users "${SQUID_USERNAME}" "${SQUID_PASSWORD}"
 exec squid3 -N $*
