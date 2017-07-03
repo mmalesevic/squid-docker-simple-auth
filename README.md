@@ -1,6 +1,8 @@
 squid-docker-simple-auth
 ========================
 
+Forked From: https://github.com/robhaswell/squid-docker-simple-auth
+
 A simple (and fragile) Dockerfile for launching an authenticated squid proxy.
 
 The user must specify authentication credentials via the following environment variables:
@@ -40,4 +42,3 @@ Ideas for Improvement
 
 * Output logs to stdout.
 * The range of authentication options could be expanded through more configuration options.
-* Supply a full configuration file that has been well considered instead of hacking up Ubuntu's defaults.

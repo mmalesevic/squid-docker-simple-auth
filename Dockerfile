@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Rob Haswell <me@robhaswell.co.uk>
+MAINTAINER Matej Malesevic <matej.malesevic@approppo.ch>
 
 RUN apt-get -qqy update
 RUN apt-get -qqy upgrade
